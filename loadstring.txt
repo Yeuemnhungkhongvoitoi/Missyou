@@ -1,0 +1,2 @@
+loadstring(game:HttpGet("https://pastefy.app/KMPRI53x/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
