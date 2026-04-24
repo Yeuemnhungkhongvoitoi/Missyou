@@ -1,6 +1,5 @@
 local ALLOWED_HWID = {
-    ["d40aa5a6-2577-4401-a5a7
--416ec38d95fb"] = true
+    ["d40aa5a6-2577-4401-a5a7-416ec38d95fb"] = true
 }
 
 local ALLOWED_EXECUTOR = {
