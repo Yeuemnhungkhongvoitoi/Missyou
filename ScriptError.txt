@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick("Error!Please add a valid getgenv().JPA")
+game.Players.LocalPlayer:Kick("Error!Please add a valid getgenv().ANYA")
