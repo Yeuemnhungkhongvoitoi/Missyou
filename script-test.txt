@@ -1,0 +1,65 @@
+local ALLOWED_HWID = {
+    ["d40aa5a6-2577-4401-a5a7
+-416ec38d95fb"] = true
+}
+
+local ALLOWED_EXECUTOR = {
+    ["Delta"] = false,
+    ["Krnl"] = true,
+    ["Fluxus"] = false
+}
+
+local executor = (identifyexecutor and identifyexecutor()) or "Unknown"
+local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
+
+if not ALLOWED_EXECUTOR[executor] then
+    game.Players.LocalPlayer:Kick("chỉ áp dụng trên delta same hwid của anya×jpa: "..executor)
+    return
+end
+
+if not ALLOWED_HWID[hwid] then
+    game.Players.LocalPlayer:Kick("chỉ áp dụng trên delta same hwid của anya×jpa")
+    return
+end
+
+local JPA = getgenv().JPA
+
+if JPA == "OmgHub" then
+    loadstring(game:HttpGet("https://pastefy.app/86HHPS8s/raw"))()
+
+elseif JPA == "BananaCat" then
+    loadstring(game:HttpGet("https://pastefy.app/QwcxaAyW/raw"))()
+
+elseif JPA == "BananaCatKaitunLevi" then
+    loadstring(game:HttpGet("https://pastefy.app/xNmWAja9/raw"))()
+
+elseif JPA == "BananaCatV4" then
+    loadstring(game:HttpGet("https://pastefy.app/AMrGxArF/raw"))()
+
+elseif JPA == "BananaCatKaitunLevel" then
+    loadstring(game:HttpGet("https://pastefy.app/IAzC8A2v/raw"))()
+
+elseif JPA == "MaruAllMap" then
+    loadstring(game:HttpGet("https://pastefy.app/DzoBWnDw/raw"))()
+
+elseif JPA == "MaruKaitun" then
+    loadstring(game:HttpGet("https://pastefy.app/KpXCZRm5/raw"))()
+
+elseif JPA == "HohoHub" then
+    loadstring(game:HttpGet("https://pastefy.app/Z8cJvlW8/raw"))()
+
+elseif JPA == "AlchemyHub" then
+    loadstring(game:HttpGet("https://pastefy.app/mKewmjL7"))()
+
+elseif JPA == "SpeedHub" then
+    loadstring(game:HttpGet("https://pastefy.app/9BX71uFz/raw"))()
+
+elseif JPA == "NativeHub" then
+    loadstring(game:HttpGet("https://pastefy.app/RizxllXU/raw"))()
+
+elseif JPA == "NousigiHub" then
+    loadstring(game:HttpGet("https://pastefy.app/VeL1xN8c/raw"))()
+
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/Missyou/refs/heads/main/ScriptError.txt"))()
+end
