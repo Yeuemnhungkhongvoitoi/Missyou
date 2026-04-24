@@ -12,7 +12,7 @@ local function buildKey(e, h)
 end
 
 -- key hợp lệ (tạo sẵn)
-local VALID_KEY = ("Delta|d40aa5a6-2577-4401-a5a7-416ec38d95fb"):reverse()
+local VALID_KEY = ("delta|d40aa5a6-2577-4401-a5a7-416ec38d95fb"):reverse()
 
 -- ===== CHECK =====
 local currentKey = buildKey(exec, hwid)
