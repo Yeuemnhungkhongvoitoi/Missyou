@@ -392,7 +392,7 @@ elseif getgen == "type2" then
 
 else
     
-    targetURL = "https://raw.githubusercontent.com/Yeuemnhungkhongvoitoi/Missyou/refs/heads/main/ScriptError.txt"
+    targetURL = "https://raw.githubusercontent.com/zam2109/zam2109-HUB/refs/heads/main/samehwiderro"
 end
 
 if targetURL ~= "" then
