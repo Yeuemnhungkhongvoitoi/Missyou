@@ -350,7 +350,7 @@ local safe_HttpGet = clonefunction and clonefunction(game.HttpGet) or game.HttpG
 local safe_hookfunc = clonefunction and clonefunction(hookfunction) or hookfunction
 
 local bananaKeyBytes = {169, 124, 245, 184, 163, 165, 208, 43, 198, 172, 116, 191}
-local maruKeyBytes = {bytecode của key maru}
+local maruKeyBytes = {0}
 
 local function getRealKey(bytes)
     local k = ""
